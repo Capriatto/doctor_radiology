@@ -1,0 +1,183 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* doctor_radiology
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130608-231017\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-21 22:19+0000\n"
+"PO-Revision-Date: 2019-06-21 22:19+0000\n"
+"Last-Translator: DracoSoft \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,patient_sex:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,patient_sex:0
+msgid "Female"
+msgstr "Femenino"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,state:0
+msgid "Open"
+msgstr "Abierta"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,state:0
+msgid "Closed"
+msgstr "Cerrada"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,state:0
+msgid "Status"
+msgstr "Estado"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,state:0
+msgid "Open"
+msgstr "Abierta"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,age_unit:0
+msgid "Years"
+msgstr "Años"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,age_unit:0
+msgid "Months"
+msgstr "Meses"
+
+#. module: doctor_radiology
+#: selection:doctor.attentions.radiology,age_unit:0
+msgid "Days"
+msgstr "Días"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,age_unit:0
+msgid "Unit of measure of age"
+msgstr "Unidad"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,conduct:0
+#: view:doctor.attentions.radiology:0
+msgid "Conduct"
+msgstr "Conducta"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Diagnosis"
+msgstr "Diagnósticos"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Patient Conduct"
+msgstr "Conducta del Paciente"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Medical Analysis"
+msgstr "Comentarios del Médico Tratante"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,age_attention:0
+msgid "Current age"
+msgstr "Edad"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,speciality:0
+msgid "Speciality"
+msgstr "Especialidad"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,therapeutic_results:0
+#: view:doctor.attentions.radiology:0
+msgid "Therapeutical Results"
+msgstr "Resultados Terapéuticos"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Therapeutic Procedures"
+msgstr "Procedimientos Terapéuticos"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,actual_disease:0
+msgid "Actual Disease"
+msgstr "Padecimiento Actual"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,exams:0
+#: view:doctor.attentions.radiology:0
+msgid "Exams"
+msgstr "Exámenes"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Lab Exams, Cabinet, and Others"
+msgstr "Exám. de Laboratorio, Gabinete y Otros"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Previous and current exams"
+msgstr "Exámenes previos y actuales"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,patient_birth_date:0
+msgid "Date of Birth"
+msgstr "Fecha Nacimiento"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,father_name:0
+msgid "Father Name"
+msgstr "Nombre Papá"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,mother_name:0
+msgid "Mother Name"
+msgstr "Nombre mamá"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,father_age:0
+msgid "Father Age"
+msgstr "Edad Papá"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,mother_age:0
+msgid "Mother Age"
+msgstr "Edad mamá"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,patient_sex:0
+msgid "Sex"
+msgstr "Género"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,patient_beliefs:0
+msgid "Beliefs"
+msgstr "Creencias"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,patient_beliefs:0
+msgid "Beliefs"
+msgstr "Creencias"
+
+#. module: doctor_radiology
+#: view:doctor.attentions.radiology:0
+msgid "Patient Details"
+msgstr "Información Paciente"
+
+#. module: doctor_radiology
+#: field:doctor.attentions.radiology,patient_id:0
+#: view:doctor.attentions.radiology:0
+msgid "Patient"
+msgstr "Paciente"
+
+
+

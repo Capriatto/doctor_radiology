@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+<!-- doctor speciality Form View -->
+	<record model="ir.ui.view" id="view_doctor_attentions_radiology_template_form">
+		<field name="name">Plantillas</field>
+		<field name="model">doctor.attentions.radiology.template</field>
+		<field name="arch" type="xml">
+		<form string="Plantillas" version="7.0">
+			<group colspan='3' col='2'>
+				<field name="name"/>
+				<field name="cuerpo"/>
+				<field name="active"/>												
+			</group>
+		</form>
+		</field>
+	</record>
+
+<!-- doctor speciality Tree View -->
+	<record model="ir.ui.view" id="view_doctor_attentions_radiology_template_tree">
+		<field name="name">Plantillas</field>
+		<field name="model">doctor.attentions.radiology.template</field>
+		<field name="arch" type="xml">
+		<tree string="Plantillas" version="7.0">
+			<field name="name"/>
+			<field name="cuerpo"/>
+		</tree>
+		</field>
+	</record>			
+
+	</data>
+</openerp>
