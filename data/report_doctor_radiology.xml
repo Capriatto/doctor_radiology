@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+    <data>
+        <report id="doctor_radiology_report_id" model="doctor.attentions.radiology" name="doctor.attentions.radiology.report" rml="doctor_radiology/report/doctor_radiology_report.rml" string="HC Radiología" auto="True" header="True"/>
+    </data>
+</openerp>

@@ -31,6 +31,7 @@
     """,
     'website': '',
     'data': [
+        'data/report_doctor_radiology.xml',
         'views/doctor_sequence.xml',
         'data/appointment_type.sql',
         'security/doctor_security.xml',
