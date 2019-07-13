@@ -38,15 +38,15 @@ class doctor_radiology_report(report_sxw.rml_parse):
 		tipo = ''
 		if patient_educational_level == '1':
 			tipo='Pregrado'
-		elif patient_educational_level == 2:
+		elif patient_educational_level == '2':
 			tipo='Postgrado'
-		elif patient_educational_level == 3:
+		elif patient_educational_level == '3':
 			tipo='Maestrías'
-		elif patient_educational_level == 4:
+		elif patient_educational_level == '4':
 			tipo='Especialización'
-		elif patient_educational_level == 5:
+		elif patient_educational_level == '5':
 			tipo='Jardín'
-		elif patient_educational_level == 6:
+		elif patient_educational_level == '6':
 			tipo='Primaria'
 		return tipo
 
