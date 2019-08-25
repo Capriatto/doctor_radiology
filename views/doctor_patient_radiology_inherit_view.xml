@@ -10,7 +10,7 @@
       <field name="arch" type="xml">
 
         <xpath expr="/form[@string='Patient']/sheet//div[1]" position="inside">
-          <button class="oe_highlight" help="Atender Paciente" string="Atender HC Radiología" name="atender_paciente_radiology" type="object" groups="" icon="terp-personal"/>
+          <button class="oe_highlight" help="Atender Paciente" string="Atender HC Radiología" name="atender_paciente_radiology" type="object" groups="doctor_radiology.group_doctor_radiology,doctor_radiology.group_doctor_radiology_conf" icon="terp-personal"/>
         </xpath>
 
       </field>
