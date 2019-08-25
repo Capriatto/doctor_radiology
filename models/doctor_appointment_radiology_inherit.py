@@ -52,7 +52,7 @@ class doctor_appointment(osv.osv):
 		attentiont_id = attentiont_obj.create(cr, uid, attentiont, context=context)
 		# Create number attentiont record
 		attentiont_number = {
-			'attentiont_gynecology_id': attentiont_id,
+			'attentiont_radiology_id': attentiont_id,
 		}
 
 		self.pool.get('doctor.appointment').write(cr, uid, [doctor_appointment.id], attentiont_number, context=context)
@@ -232,7 +232,7 @@ class doctor_appointment(osv.osv):
 				context['default_patient_educational_level'] = doctor_appointment_variable.patient_id.nivel_educativo
 
 				
-				attentiont_id = self.create_attentiont_radiology(cr, uid, doctor_appointment_variable, self.pool.get('doctor.attentions.gynecology'), context=context)
+				attentiont_id = self.create_attentiont_radiology(cr, uid, doctor_appointment_variable, self.pool.get('doctor.attentions.radiology'), context=context)
 				result = data_obj._get_id(cr, uid, 'doctor_radiology','view_doctor_attentions_radiology_form')
 				view_id = data_obj.browse(cr, uid, result).res_id
 				return {

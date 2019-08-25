@@ -32,10 +32,10 @@
     'website': '',
     'data': [
         'data/report_doctor_radiology.xml',
-        'views/doctor_sequence.xml',
         'data/appointment_type.sql',
         'security/doctor_security.xml',
         'security/ir.model.access.csv',
+        'views/doctor_sequence.xml',
         'views/doctor_attentions_radiology_view.xml',
         'views/doctor_patient_radiology_inherit_view.xml',
         'views/doctor_appointment_inherit_view.xml',
